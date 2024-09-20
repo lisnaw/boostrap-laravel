@@ -1,0 +1,33 @@
+body {
+    background-color: #f4f8fb;
+}
+
+h2 {
+    color: #333;
+}
+
+input,
+textarea {
+    border: 2px solid #000000;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #999;
+}
+
+button {
+    background-color: #06958c;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3eb7a4;
+}
